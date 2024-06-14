@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://images/play-button-pressed.jpg" type="Texture" id=1]
+[ext_resource path="res://scene.cs" type="Script" id=2]
+[ext_resource path="res://images/play-button.jpg" type="Texture" id=3]
+[ext_resource path="res://images/quacker_duck.png" type="Texture" id=4]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="QuackerDuck" type="Sprite" parent="."]
+position = Vector2( 514, 342 )
+texture = ExtResource( 4 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="ManualButton" type="TouchScreenButton" parent="."]
+position = Vector2( 47, 433 )
+scale = Vector2( 0.173333, 0.190397 )
+normal = ExtResource( 3 )
+pressed = ExtResource( 1 )
+action = "manualQuack"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_right = 1017.0
+margin_bottom = 105.0
+rect_scale = Vector2( 1.00459, 0.926381 )
+bbcode_text = "Shake to Quack
+based on Tokyo Disneyland 2024 Quack Stick
+
+Quack Stick Duck image copyright of Disney, all rights reserved. 
+
+Sound: Tokyo Disneyland Haul: Donald Duck's Quacky City Merch! by Wandering with Manami: Tokyo Disney Travel Guide found at https://www.youtube.com/watch?v=vrXCYUOBNK4"
+text = "Shake to Quack
+based on Tokyo Disneyland 2024 Quack Stick
+
+Quack Stick Duck image copyright of Disney, all rights reserved. 
+
+Sound: Tokyo Disneyland Haul: Donald Duck's Quacky City Merch! by Wandering with Manami: Tokyo Disney Travel Guide found at https://www.youtube.com/watch?v=vrXCYUOBNK4"
