@@ -45,9 +45,7 @@ based on Tokyo Disneyland 2024 Quack Stick
 
 Quack Stick Duck image copyright of Disney, all rights reserved. 
 
-Sound: Tokyo Disneyland Haul: Donald Duck's Quacky City Merch! by 
-Wandering with Manami: Tokyo Disney Travel Guide found at 
-https://www.youtube.com/watch?v=vrXCYUOBNK4"
+Sound: Tokyo Disneyland Haul: Donald Duck's Quacky City Merch! by Wandering with Manami: Tokyo Disney Travel Guide found at https://www.youtube.com/watch?v=vrXCYUOBNK4"
 
 [node name="QuackerDuck" type="Sprite" parent="."]
 position = Vector2( 501, 301 )
