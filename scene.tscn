@@ -15,8 +15,8 @@
 script = ExtResource( 2 )
 
 [node name="ManualButton" type="TouchScreenButton" parent="."]
-position = Vector2( 177, 185 )
-scale = Vector2( 0.173333, 0.190397 )
+position = Vector2( 127, 610 )
+scale = Vector2( 0.266667, 0.190397 )
 normal = ExtResource( 3 )
 pressed = ExtResource( 1 )
 action = "manualQuack"
@@ -31,8 +31,10 @@ script = ExtResource( 5 )
 script = ExtResource( 8 )
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_right = 374.0
-margin_bottom = 174.0
+margin_left = 2.00006
+margin_top = -2.0
+margin_right = 512.0
+margin_bottom = 149.0
 rect_scale = Vector2( 1.00459, 0.926381 )
 bbcode_text = "Shake to Quack
 based on Tokyo Disneyland 2024 Quack Stick
@@ -48,7 +50,7 @@ Quack Stick Duck image copyright of Disney, all rights reserved.
 Sound: Tokyo Disneyland Haul: Donald Duck's Quacky City Merch! by Wandering with Manami: Tokyo Disney Travel Guide found at https://www.youtube.com/watch?v=vrXCYUOBNK4"
 
 [node name="QuackerDuck" type="Sprite" parent="."]
-position = Vector2( 501, 301 )
-scale = Vector2( 1, 0.999999 )
+position = Vector2( 212.125, 330.685 )
+scale = Vector2( 0.902038, 0.902037 )
 texture = ExtResource( 4 )
 script = ExtResource( 7 )

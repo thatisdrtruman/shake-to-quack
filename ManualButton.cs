@@ -6,7 +6,7 @@ public class ManualButton : TouchScreenButton
     private Sprite QuackerDuck;
     private ShaderMaterial DuckShaderMaterial;
     private float ShakeIntensity = 10f; // Adjust intensity as needed
-    private float ShakeTime = (float)GD.RandRange(0.45, 0.7);    // Duration of the shake effect
+    private float ShakeTime = (float)GD.RandRange(0.45, 0.8);    // Duration of the shake effect
     private float _shakeTimer = 0f;
     private Vector2 StartPosition; // The original position
     private float StartRotation; // The original rotation
@@ -26,6 +26,7 @@ public class ManualButton : TouchScreenButton
     {
         var QuackSound = GetNode<AudioStreamPlayer>("AudioStreamPlayer");
         QuackSound.Stream = GD.Load<AudioStream>("res://sounds/quacksound" + (int)GD.RandRange(1, 6) + ".wav");
+        QuackSound.PitchScale = (float)GD.RandRange(0.95, 1.05);
         QuackSound.Play();
 
         _shakeTimer = ShakeTime;
